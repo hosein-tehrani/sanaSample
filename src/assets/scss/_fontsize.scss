@@ -1,0 +1,54 @@
+
+@media (min-width: 1904px) {
+    html{
+        font-size: 55% !important;
+    }    
+}
+
+@media (max-width: 1904px) {
+    html{
+        font-size: 55% !important;
+    }    
+}
+
+@media (max-width: 1904px) and (min-width:1264px) {
+    html{
+        font-size: 55% !important;
+    }    
+}
+@media (max-width: 1264px) and (min-width:960px) {
+    html{
+        font-size: 55% !important;
+    }    
+}
+@media (max-width: 960px) and (min-width:600px) {
+    html{
+        font-size: 50% !important;
+    }    
+}
+@media (max-width: 600px) {
+    html{
+        font-size: 45% !important;
+    }    
+}
+
+//headings font sizes
+
+h1 {
+    font-size: 28px !important;
+  }
+  h2 {
+    font-size: 26px !important;
+  }
+  h3 {
+    font-size: 24px !important;
+  }
+  h4 {
+    font-size: 22px !important;
+  }
+  h5 {
+    font-size: 19px !important;
+  }
+  h6 {
+    font-size: 16px !important;
+  }

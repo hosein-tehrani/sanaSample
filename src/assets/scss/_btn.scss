@@ -1,0 +1,144 @@
+.vpd-actions button:nth-child(1) {
+  background-color: $primary;
+  color: #fff !important;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.vpd-actions button:nth-child(1):hover {
+  opacity: 0.8;
+  background-color: $primary !important;
+}
+
+.vpd-actions button:nth-child(2) {
+  color: $cancel !important;
+  border-radius: 6px;
+  border: 1px solid $cancel;
+}
+
+.vpd-actions button:nth-child(3) {
+  border-radius: 6px;
+  border: 1px solid $primary;
+  color: $primary !important;
+}
+
+.vpd-actions {
+  text-align: center !important;
+}
+
+.vpd-day:not([disabled]).vpd-selected {
+  color: rgba(0, 0, 0, 0.6);
+}
+.vpd-day:not([disabled]).vpd-selected .vpd-day-effect,
+.vpd-addon-list-item.vpd-selected {
+  background-color: $primary !important;
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: lighten($primary, 5%) !important;
+  }
+}
+
+//commom btn styles
+.v-btn {
+  box-shadow: none !important;
+}
+
+.primary-btn.v-btn {
+  background-color: $element !important;
+  color: $sidebar !important;
+  border-radius: 10px !important;
+  font-size: 16px !important;
+}
+
+.primary-btn:hover,
+.v-btn:hover {
+  background-color: $activeTab !important;
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+  color: $active !important;
+}
+
+.primary-btn span,
+.secondary-btn span,
+.services-btn span {
+  font-size: 16px !important;
+}
+.secondary-btn {
+  background-color: $sidebar !important;
+  color: $element !important;
+  border: 1px solid $element !important;
+  border-radius: 10px !important;
+  font-size: 16px !important;
+}
+.secondary-btn:hover {
+  background-color: $activeTab !important;
+  border: none !important;
+  color: $active !important;
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+}
+
+.user-btn:hover,
+.user-btn:before {
+  background-color: transparent !important;
+}
+
+.submit-btn {
+  border-radius: 10px !important;
+  width: 10% !important;
+  padding: 2.2rem !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.red-btn {
+  background-color: $redcolor !important;
+  color: $sidebar !important;
+  border-radius: 10px !important;
+  font-size: 16px !important;
+}
+
+.red-btn:hover {
+  background-color: $sidebar !important;
+  color: $redcolor !important;
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+  font-size: 16px !important;
+}
+
+.close-btn{
+  background-color: transparent !important;
+  color: $redcolor !important;
+  border-radius: 10px !important;
+}
+
+.close-btn:hover {
+  background-color: transparent !important;
+  color: $redhover !important;
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+}
+
+.shift-btn {
+  background-color: $activeTab !important;
+  color: $active !important;
+  border-radius: 10px !important;
+  font-size: 14px !important;
+  // width: 100% !important;
+}
+
+.current-user{
+  color:$active !important;
+}
+
+.info-text {
+  font-size: 18px !important;
+  line-height: 30px !important;
+}
+

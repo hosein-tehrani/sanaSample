@@ -1,0 +1,85 @@
+// If you want to override variables do it here
+@import "variables";
+
+//font sizes
+@import "fontsize";
+
+// If you want to add something do it here
+@import "custom";
+// ie fixes
+@import "ie-fix";
+@import "userForm";
+
+$body-font-family: iransans;
+//default container
+@import "vendors/defaultContainer/sidebar";
+@import "vendors/defaultContainer/dropdown";
+@import "vendors/defaultContainer/footer";
+@import "vendors/defaultContainer/defaultContainer";
+
+$primary: #5089c6;
+$secondary: #7d8ec4;
+$cancel: #f3677f;
+
+@import "btn";
+
+// project font family
+*,
+body {
+  font-family: projectMainFont;
+}
+@font-face {
+  font-family: projectMainFont;
+  src: url("assets/fonts/IRANSans\(FaNum\).ttf");
+}
+
+//toastification style
+.Vue-Toastification__toast-body {
+  direction: rtl !important;
+  text-align: right !important;
+}
+.search-input {
+  border-radius: 10px !important;
+}
+
+.inputs-row {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  .v-text-field.v-text-field--enclosed .v-text-field__details {
+    display: none !important;
+  }
+}
+
+.v-input__icon--append .v-icon {
+  color: $primary !important;
+  font-size: 16px !important;
+}
+.v-select__slot .v-input__icon--append .v-icon {
+  font-size: 32px !important;
+}
+
+.center-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea,
+.v-select__selection {
+  font-size: 14px !important;
+}
+
+.v-select-list .v-list-item .v-list-item__content .v-list-item__title {
+  padding: 1rem !important;
+}
+
+
+.col {
+  text-align: right !important;
+}
